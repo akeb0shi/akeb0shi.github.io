@@ -23,7 +23,14 @@
     <p>Here is an image of me modeling a beanie and jacket I designed.</p>
     <img src="modeling.JPG" style="width: 300px;">
     <p> </p>
-    <a href="https://yoruapparel.com/">Click here to go to my store where I sell the clothes I design!</a>
+    <button id = 'navigationButton'>Click here to go to my store where I sell the clothes I design!</button>
+    <script>
+        const navigationButton = document.getElementById('navigationButton')
+        navigationButton.addEventListener('click', function(){
+            window.location.href = 'https://yoruapparel.com/';
+        }
+        )
+    </script>
     <p>Contact me: <a href="mailto:kao.d@northeastern.edu">kao.d@northeastern.edu</a></p>
 </body>
 </html>
